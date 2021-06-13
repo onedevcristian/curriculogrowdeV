@@ -1,0 +1,185 @@
+body {
+    background-color: #E0E0E0;
+}
+
+.container-card {
+    padding: 30px 0px 100px 0px;
+    margin-bottom: 5em;
+}
+
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+
+.em-earth_americas {
+    font-size: 25px;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 700 !important;
+}
+
+.text-center {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hr {
+    height: 1px;
+    background-color: #9E9E9E;
+    width: 30%;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil {
+    background-color: #19DEF0 !important;
+    box-shadow: 0px 0px 5px #F5F5F5;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.buttons-card {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 25px;
+    background-image: linear-gradient(to bottom right, #11998e, #38ef7d);
+    font-weight: 700;
+    color: #fff !important;
+}
+
+#btn-sobre:hover {
+    background-image: linear-gradient(to bottom right, #0f8a7f, #30cf6d) !important;
+    color: #fff !important;
+}
+
+#btn-projetos {
+    color: white !important;
+    border: 2px solid #38ef7d !important;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 700;
+}
+
+#btn-projetos:hover {
+    border: 2px solid #30cf6d !important;
+}
+
+.icon-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.title-subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px 17px;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais i {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.links-redes-sociais-footer i {
+    color: #212121 !important;
+    font-size: 25px;
+    padding: 6px;
+}
+
+.fa-facebook:hover {
+    color: #212121 !important
+}
+.fa-linkedin:hover {
+    color: #212121 !important
+}
+.fa-twitter:hover {
+    color: #212121 !important
+}
+.fa-instagram:hover {
+    color: #212121 !important
+}
+
+#footer-elements {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footer-elements .email {
+    padding: 13px 0px 15px 0px;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .container-linear {
+        background: linear-gradient(to left, #EEEEEE 60%, #212121 40%);
+    }
+    .card-col {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-image: linear-gradient(to bottom right, #ee0979, #ff6a00);
+        box-shadow: 0px 5px 5px 5px #21212185;
+        border-radius: 20px;
+    }
+    .card-perfil {
+        background-image: linear-gradient(to bottom right, #ee0979, #ff6a00) !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: none !important;
+    }
+    .btn-card {
+        color: #232526 !important;
+    }
+    
+    .text-body {
+        box-shadow: none;
+    }
+    .text {
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+    #footer-elements {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+#texto-0 {}
+
+#texto-1 {
+    display: none;
+}
+
+#texto-2 {
+    display: none;
+}
