@@ -1,5 +1,5 @@
 var nome = "Cristian da Silva";
-var cargo = "Desenvolvedor Full Stack";
+var cargo = "Futuro Desenvolvedor Full Stack";
 
 var nomeHtml = document.getElementById("nome-no-html");
 var cargoHtml = document.getElementById("cargo-no-html");
@@ -16,14 +16,14 @@ function colocarCargoNoHtml(cargo) {
 }
 
 function clickNoProjetos() {
-    console.log("Clicou no botão Jobs");
+    console.log("Cliques no botão Jobs");
     texto2.style.display = "block";
     texto1.style.display = "none";
     texto0.style.display = "none";
 }
 
 function clickNoSobre() {
-    console.log("Clicou no botão About");
+    console.log("Cliques no botão About");
     texto1.style.display = "block";
     texto2.style.display = "none";
     texto0.style.display = "none";
